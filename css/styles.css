@@ -179,9 +179,12 @@
         
         .swiper-hero .swiper-slide {
             width: 100%;
+            height: auto;
         }
         
         .swiper-hero img {
+            display: block;
+            margin: 0 auto;
             width: 100%;
             object-fit: contain;
             background-color: black;
@@ -676,12 +679,20 @@
             transform: scale(1.1);
         }
         
+        .redes a {
+            color: rgb(145, 145, 64);
+        }
+        
         .copyright {
             font-size: 0.7rem;
         }
         
         footer a {
             color: rgb(145, 145, 64);
+        }
+        
+        .enlace {
+            color: rgb(145, 145, 64)!important;
         }
         
         footer ul {
